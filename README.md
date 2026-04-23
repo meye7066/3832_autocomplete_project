@@ -12,20 +12,20 @@ This project implements a simple word-level text auto-completion system using a 
 
 ## How to Run the Code
 
-This project was developed in Google Colab.
-It is available here as a python file named "autocomplete_project.py".
+This project was developed in Google Colab and can be accessed here:
 
-I had trouble downloading the code from Colab as a ipynb file, so I have made it available here as a python file.
-There is a link at the top of the python file to the notebook in Colab. I recommend running it there since it uses a 
-relatively large dataset (4.72MB of downloaded dataset files, 13.54MB of generated dataset, and it uses a total of 18.26MB of disk space)
+COLAB LINK: https://colab.research.google.com/drive/1MWHX6D1b6plaKB9PyenQWJdUelKxCNms
 
-The python file can be run in the terminal with:
+It is available on GitHub as a python file named "autocomplete_project.py".
+
+I had trouble downloading the code from Colab as a ipynb file, so I have made it available here as a python file just in case. There is a link at the top of the python file to the notebook in Colab as well. I recommend running it there since it uses a relatively large dataset (4.72MB of downloaded dataset files, 13.54MB of generated dataset, and it uses a total of 18.26MB of disk space)
+
+If running locally, make sure to check the Dependencies. The python file can be run in the terminal with:
 `python3 autocomplete.py` or `python autocomplete.py`
 
 There are some sanity checks I left in there to demonstrate how the `get_suggestions` function works.
 I put a 'EXPERIMENT STARTS HERE' comment  where the experiment's code starts. There are definitions
-for the keystroke savings and accuracy functions, and then there is a section that will run 1 experiment
-as a sanity check. At the bottom is where the loop is to repeat the experiment 5 more times.
+for the keystroke savings and accuracy functions, and then there is a section that will run 1 experiment as another sanity check. At the bottom is where the loop is to repeat the experiment 5 more times.
 
 *Please note that the project code took me about 10 minutes to run*
 
@@ -40,7 +40,7 @@ The project uses the following Python libraries:
 
 ## Files and Structure
 
-* `autocomplete_project.ipynb` or `autocomplete_project.py`
+* `autocomplete_project.ipynb` on Colab or `autocomplete_project.py` here on GitHub
   Main implementation containing preprocessing, model construction, and evaluation.
 
 * `README.md`
