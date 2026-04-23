@@ -1,3 +1,7 @@
+GITHUB LINK: https://github.com/meye7066/3832_autocomplete_project.git
+
+COLAB LINK: https://colab.research.google.com/drive/1MWHX6D1b6plaKB9PyenQWJdUelKxCNms
+
 # Text Auto-Completion Project
 
 ## Overview
